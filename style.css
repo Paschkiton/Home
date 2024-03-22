@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(14, 223, 195);
+}
+.house {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 50px auto;
+  }
+  
+  .chimney {
+    position: absolute;
+    top: -30px;
+    left: 50px;
+    width: 50px;
+    height: 100px;
+    background-color: rgba(46, 46, 46, 0.562);
+  }
+  
+  .roof {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100px;
+    background-color: rgb(185, 76, 13);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+  
+  .main-body {
+    position: absolute;
+    bottom: 0;
+    width: 300px;
+    height: 300px;
+    background-color: tan;
+  }
+  
+  .round-window {
+    position: absolute;
+    top: 200px;
+    left: 90px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: skyblue;
+  }
+  
+  .porch {
+    position: absolute;
+    bottom: 0px;
+    left: -100px;
+    width: 100px;
+    height: 50px;
+    background-color: brown;
+  }
